@@ -7,7 +7,7 @@ about:
   head: 65cd829
   archived: false
   latestVersion: 0.11.0
-  collectedAt: 2026-09-04T19:38:36Z
+  collectedAt: 2026-09-04T21:03:01Z
 timeline:
   created: 2020-02-22
   lastCommit: 2022-02-19
@@ -80,6 +80,29 @@ total:
   openIssue: 34
   commit: 207
 ---
+path: /home/runner/.x-repo/github.com/imsnif/diskonaut
+collectedAt: 2026-09-04T21:03:03Z
+loc:
+  Rust:
+    code: 6368
+    comments: 147
+    blanks: 645
+    files: 48
+  Toml:
+    code: 23
+    comments: 0
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 198
+    blanks: 81
+    files: 4
+total:
+  code: 6391
+  comments: 348
+  blanks: 728
+  files: 53
 ---
 date: "2026-08-24"
 repo:
