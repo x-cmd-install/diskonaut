@@ -1,59 +1,10 @@
-- repo: parabola
-  subrepo: extra
-  srcname: diskonaut
-  binname: diskonaut
-  visiblename: diskonaut
-  version: 0.11.0
-  origversion: 0.11.0-3
-  status: newest
-  summary: TUI disk space navigator written in rust
-  licenses:
-    - MIT
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: diskonaut
-  binname: diskonaut
-  visiblename: diskonaut
-  version: 0.11.0
-  origversion: 0.11.0-2
-  status: newest
-  summary: TUI disk space navigator written in rust
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: diskonaut
-  binname: diskonaut
-  visiblename: diskonaut
-  version: 0.11.0
-  origversion: 0.11.0-2
-  status: newest
-  summary: TUI disk space navigator written in rust
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: diskonaut
-  binname: diskonaut
-  visiblename: diskonaut
-  version: 0.11.0
-  origversion: 0.11.0-3
-  status: newest
-  summary: TUI disk space navigator written in rust
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
+- repo: crates_io
   srcname: diskonaut
   visiblename: diskonaut
   version: 0.11.0
   origversion: null
   status: newest
-  summary: Terminal disk space navigator
-  maintainers:
-    - evanjsx@gmail.com
-    - figsoda@pm.me
-  licenses:
-    - MIT
+  summary: Terminal disk space visual navigator
 - repo: alpine_edge
   subrepo: testing
   srcname: diskonaut
@@ -106,13 +57,6 @@
     - fallback-mnt-aur@repology
   licenses:
     - MIT
-- repo: crates_io
-  srcname: diskonaut
-  visiblename: diskonaut
-  version: 0.11.0
-  origversion: null
-  status: newest
-  summary: Terminal disk space visual navigator
 - repo: fedora_39
   subrepo: release
   srcname: rust-diskonaut
@@ -161,18 +105,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_24_11
-  srcname: diskonaut
-  visiblename: diskonaut
-  version: 0.11.0
-  origversion: null
-  status: newest
-  summary: Terminal disk space navigator
-  maintainers:
-    - evanjsx@gmail.com
-    - figsoda@pm.me
-  licenses:
-    - MIT
 - repo: fedora_40
   subrepo: release
   srcname: rust-diskonaut
@@ -190,22 +122,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: rust-diskonaut
-  binnames:
-    - diskonaut
-    - rust-diskonaut-debuginfo
-    - rust-diskonaut-debugsource
-  visiblename: rust-diskonaut
-  version: 0.11.0
-  origversion: 0.11.0-19.fc41
-  status: newest
-  summary: Terminal disk space visual navigator
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: rust-diskonaut
   binnames:
@@ -215,6 +131,22 @@
   visiblename: rust-diskonaut
   version: 0.11.0
   origversion: 0.11.0-20.fc41
+  status: newest
+  summary: Terminal disk space visual navigator
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: rust-diskonaut
+  binnames:
+    - diskonaut
+    - rust-diskonaut-debuginfo
+    - rust-diskonaut-debugsource
+  visiblename: rust-diskonaut
+  version: 0.11.0
+  origversion: 0.11.0-19.fc41
   status: newest
   summary: Terminal disk space visual navigator
   licenses:
@@ -444,6 +376,74 @@
     - MIT
   categories:
     - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: diskonaut
+  binname: diskonaut
+  visiblename: diskonaut
+  version: 0.11.0
+  origversion: 0.11.0-3
+  status: newest
+  summary: TUI disk space navigator written in rust
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: diskonaut
+  binname: diskonaut
+  visiblename: diskonaut
+  version: 0.11.0
+  origversion: 0.11.0-3
+  status: newest
+  summary: TUI disk space navigator written in rust
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: diskonaut
+  binname: diskonaut
+  visiblename: diskonaut
+  version: 0.11.0
+  origversion: 0.11.0-3
+  status: newest
+  summary: TUI disk space navigator written in rust
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: diskonaut
+  visiblename: diskonaut
+  version: 0.11.0
+  origversion: null
+  status: newest
+  summary: Terminal disk space navigator
+  maintainers:
+    - evanjsx@gmail.com
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: diskonaut
+  visiblename: diskonaut
+  version: 0.11.0
+  origversion: null
+  status: newest
+  summary: Terminal disk space navigator
+  maintainers:
+    - evanjsx@gmail.com
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: diskonaut
+  binname: diskonaut
+  visiblename: diskonaut
+  version: 0.11.0
+  origversion: 0.11.0-3
+  status: newest
+  summary: TUI disk space navigator written in rust
+  licenses:
+    - MIT
 - repo: void_x86_64
   subrepo: x86_64
   srcname: diskonaut
