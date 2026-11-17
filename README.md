@@ -22,6 +22,16 @@ Total: **6,391** lines of code across **53** files in the top 5 languages.
 | Toml | 23 | 0 | 2 | 1 |
 | Markdown | 0 | 198 | 81 | 4 |
 
+## OpenSSF Scorecard
+
+Overall score: **2.1 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Dangerous-Workflow** (-1/10) — no workflows found
+
 ## Source
 
 - **Upstream**: <https://github.com/imsnif/diskonaut>
@@ -35,7 +45,7 @@ Total: **6,391** lines of code across **53** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,160 · **Forks**: 102 · **Open issues**: 63 · **Contributors**: 19
+- **Stars**: 3,161 · **Forks**: 102 · **Open issues**: 63 · **Contributors**: 19
 
 ## Totals (cumulative)
 
@@ -45,12 +55,12 @@ Total: **6,391** lines of code across **53** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 2 | 0 | 1 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 2 | 0 | 1 | 0 |
-| last180d | 2026-05-20 | 0 | 0 | 3 | 0 | 2 | 0 |
-| 360d | 2025-11-21 | 0 | 0 | 3 | 0 | 4 | 0 |
-| last720d | 2024-11-26 | 0 | 0 | 5 | 0 | 7 | 0 |
+| 30d | 2026-10-18 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 2 | 0 | 1 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 2 | 0 | 1 | 0 |
+| last180d | 2026-05-21 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-11-22 | 0 | 0 | 3 | 0 | 4 | 0 |
+| last720d | 2024-11-27 | 0 | 0 | 5 | 0 | 7 | 0 |
 
 ## Release assets
 
@@ -60,7 +70,7 @@ Total: **6,391** lines of code across **53** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **36** distros on [repology.org](https://repology.org/project/diskonaut). **29** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
+Reported by **37** distros on [repology.org](https://repology.org/project/diskonaut). **30** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -79,4 +89,4 @@ Install metadata for diskonaut lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:28:18Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T11:12:55Z._
